@@ -1,0 +1,6 @@
+outs:
+- md5: 208cf9606130b1512a41f9fc899907cd.dir
+  size: 402552427
+  nfiles: 2717
+  hash: md5
+  path: Rock_paper_sissor_dataset
