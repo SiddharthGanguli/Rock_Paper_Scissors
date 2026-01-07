@@ -1,0 +1,14 @@
+artifacts_root : artifacts
+
+data_ingestion :
+  root_dir: artifacts/data_ingestion
+  source_data: data/raw/
+  train_data_path: artifacts/data_ingestion/train.csv
+  test_data_path: artifacts/data_ingestion/test.csv
+
+
+data_validation : 
+  root_dir : artifacts/data_validation
+  source_data : schema.yaml
+  train_data_path: artifacts/data_ingestion/train.csv
+  status_file: artifacts/data_validation/status.txt
