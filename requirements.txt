@@ -7,3 +7,4 @@ mlflow
 python-dotenv
 dvc
 dvc-gdrive
+Pillow

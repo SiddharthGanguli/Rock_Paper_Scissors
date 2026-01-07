@@ -1,0 +1,19 @@
+dataset_type: image_classification
+
+classes:
+  - rock
+  - paper
+  - scissors
+
+image:
+  allowed_extensions:
+    - jpg
+    - jpeg
+    - png
+
+  min_width: 64
+  min_height: 64
+  max_width: 1024
+  max_height: 1024
+
+channels: 3
