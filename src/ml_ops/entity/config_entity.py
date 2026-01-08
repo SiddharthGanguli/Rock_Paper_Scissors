@@ -19,3 +19,10 @@ class DataValidationConfig:
     schema_file: Path
     status_file: Path
     min_images_per_class: int
+
+@dataclass
+class ModelEvaluationConfig:
+    root_dir: Path
+    model_path: Path
+    test_data_path: Path
+    metrics_dir: Path
